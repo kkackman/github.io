@@ -1,0 +1,133 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+}
+
+
+#spring {
+    background-color: deeppink;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#spring header {}
+
+#spring img {
+    width: 40%;
+    Padding: 40px;
+}
+
+
+#summer {
+    background-color: dodgerblue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#summer img {
+    width: 40%;
+    padding: 40px;
+}
+
+#fall {
+    background-color: coral;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#fall img {
+    width: 40%;
+    padding: 40px;
+}
+
+
+#winter {
+    margin: 0 auto;
+    background-color: azure;
+    width: 80%;
+}
+
+#winter img {
+    width: 40%;
+    padding: 40px;
+}
+
+#winter footer {
+    color: white;
+}
+
+#home {
+    margin: 0 auto;
+    width: 80%;
+    background-color: darkgray;
+}
+
+#home img {
+    width: 40%;
+    margin: auto;
+}
+
+header {
+    padding: 30px;
+    margin-right: 0px;
+}
+
+#home header img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+nav {
+    text-align: center;
+    background-color: #1388ba;
+    padding: 3px;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    font-family: verdana;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+nav a:hover {
+    color: navy;
+    background-color: #dbc309;
+}
+
+
+section {
+    font-family: Verdana;
+    padding: 30px;
+}
+
+#pic {
+    width: 80%;
+    margin-left: 29%;
+}
+
+p {
+    color: #dbc309;
+    width: 50%;
+    text-align: center;
+}
+
+#hally {
+    width: 80%;
+    margin-left: 10%;
+}
+
+footer {
+    text-align: center;
+    background-color: #1388ba;
+}
