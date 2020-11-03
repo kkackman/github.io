@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Figure
+    </title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+
+                <h1>Welcome World</h1>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere condimentum augue at dictum. Aenean vulputate libero in justo euismod, vel lacinia urna porta. Morbi pellentesque ligula sed orci imperdiet, ut volutpat dolor suscipit. Suspendisse eleifend luctus ligula et condimentum. Maecenas ac massa nisl. Duis vel arcu dictum, ornare est lacinia, lacinia tellus. Donec dictum, mauris ut pulvinar suscipit, justo enim rutrum erat, sed venenatis augue lorem eu tortor. Nunc viverra ligula eu condimentum imperdiet. Vestibulum tincidunt euismod tellus et aliquam. Maecenas et ipsum quis nibh congue cursus sit amet eget purus. In et tortor vel massa hendrerit semper ut at nisi. Etiam accumsan, tortor at imperdiet faucibus, lorem nulla pretium odio, id porta dui tortor eu nulla. Vestibulum sed lectus scelerisque nulla facilisis elementum quis ut lacus. Vivamus augue leo, lacinia ut urna eu, condimentum pulvinar lorem.
+
+                Etiam et pharetra elit, eget dictum metus. Duis in ligula ante. Curabitur ultricies facilisis tortor, ac auctor risus facilisis nec. Curabitur blandit lorem sit amet venenatis condimentum. Nam elit odio, vehicula vitae est id, iaculis tempus felis. Etiam id orci vulputate, fermentum purus quis, rhoncus risus. Quisque eros sapien, pulvinar in efficitur in, tempus non ex. Vestibulum ac commodo dolor, non consequat nisi. Nam blandit erat nec nulla laoreet finibus. Nulla lobortis aliquet vestibulum. Integer non eros est.
+            </div>
+        </header>
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/seahawks.jpg" data-thumb="images/seahawks.jpg" alt="" />
+                    <a href="http://seahawks.com"><img src="images/sounders.jpg" data-thumb="images/sounders.jpg" alt="Sounders" title="Seattle Sounders" /></a>
+                    <img src="images/uw.jpg" data-thumb="images/uw.jpg" alt="Washington" data-transition="slideInLeft" />
+                    <img src="images/wsu.jpg" data-thumb="images/wsu.jpg" alt="Cougs" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>Go Cougs</strong>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+        </section>
+
+        <footer>Footer
+        </footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+</body>
+
+</html>
