@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book
+    </title>
+    <link href="hanksville.css" rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180152155-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180152155-1');
+
+    </script>
+
+</head>
+
+<body>
+    <div id="book">
+        <header>
+            <img src="hanksvillelogo2.png">
+            <h1>Book</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="explorepl.html">Explore PL</a></li>
+                <li><a href="about.html">About the Owners</a></li>
+
+
+            </ul>
+        </nav>
+
+        <section>
+            <fieldset>
+                <legend>Your Information</legend>
+                <form method="post" action="thankyou.html">
+
+                    <p><label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname"></p>
+
+                    <p><label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname"></p>
+
+                    <p><label for="phone">Phone</label><br>
+                        <input type="tel" id="phone" name="phone"></p>
+
+                    <p><label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"></p>
+                    <div id="sunset">
+                        <img src="images/sunset.jpg">
+                    </div>
+                    <p>What days would you like to stay?</p>
+                    <p> <input type="checkbox" id="Sunday" name="days" value="Sunday">
+                        <label for="Sunday">Sunday</label><br>
+
+                        <input type="checkbox" id="Monday" name="days" value="Monday">
+                        <label for="Monday">Monday</label><br>
+
+                        <input type="checkbox" id="Tuesday" name="days" value="Tuesday">
+                        <label for="Tuesday">Tuesday</label><br>
+
+                        <input type="checkbox" id="Wednesday" name="days" value="Wednesday">
+                        <label for="Wednesday">Wednesday</label><br>
+
+                        <input type="checkbox" id="Thursday" name="days" value="Thursday">
+                        <label for="Thursday">Thursday</label><br>
+
+                        <input type="checkbox" id="Friday" name="days" value="Friday">
+                        <label for="Friday">Friday</label><br>
+
+                        <input type="checkbox" id="Saturday" name="days" value="Saturday">
+                        <label for="Saturday">Saturday</label><br>
+                    </p>
+
+                    <p>How did you hear about us?</p>
+
+                    <select id="howhear">
+                        <option value="None">Select</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Us">Us</option>
+                        <option value="Social Media">Social Media</option>
+
+                    </select>
+
+
+                    <p>Have you ever been to this website before?</p>
+                    <p> <input type="radio" id="yes" name="before" value="yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="no" name="before" value="no">
+                        <label for="no">No</label></p>
+
+
+
+                    <p>Let us know how we can help:</p>
+
+                    <textarea name="comments" id="comments" placeholder="Place comment here"></textarea><br>
+
+                    <input type="submit" value="Submit" class=button href="thankyou.html">
+
+
+
+                </form>
+            </fieldset>
+        </section>
+
+        <footer>&copy; Hanksville 2020.
+        </footer>
+    </div>
+    <!--End wrap-->
+
+</body>
+
+</html>

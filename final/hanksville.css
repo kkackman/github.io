@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@700&family=Raleway:wght@300&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9fceed;
+    color: white;
+}
+
+#home {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+}
+
+#home img {
+    width: 20%;
+    margin: auto;
+}
+
+#home header {
+    background-color: bisque;
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+#home header img {
+    width: 20%;
+}
+
+#home section {
+    line-height: 27px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 110%;
+}
+
+#book {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+
+}
+
+#book header {
+    background-color: bisque;
+    text-align: center;
+    width: 94.3%;
+    color: black;
+}
+
+#book header img {
+    width: 20%;
+}
+
+#book img {
+    width: 90%;
+    padding: 20px;
+}
+
+#book section {
+    text-align: center;
+}
+
+#sunset {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#tour {
+
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tour header {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+
+#tour header img {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+#tour section {
+    line-height: 27px;
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    overflow: auto;
+}
+
+figure {
+    width: 35%;
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid white;
+    float: left;
+    margin: 10px 25px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#explore {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#explore header {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+
+#explore header img {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+#explore section,
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#explore h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 150%;
+}
+
+.fb-post {
+    width: 80%;
+}
+
+#about {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about header {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+
+#about header img {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+section #owners {
+    width: 100%;
+    line-height: 27px;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 40px;
+}
+
+#owners p {}
+
+#owners h2 {
+    text-align: left;
+}
+
+.own {
+    float: right;
+    width: 50%;
+    margin: 0 60px 20px 20px;
+}
+
+header {
+    padding: 30px;
+    margin-right: 0px;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+    font-family: 'DM Serif Display', serif;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    font-family: verdana;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 150%;
+
+}
+
+nav a:hover {
+    color: white;
+    background-color: #ebc5b2;
+}
+
+
+section {
+    font-family: sans-serif;
+    padding: 30px;
+    color: black;
+    overflow: auto;
+}
+
+#pic {
+    width: 80%;
+    margin-left: 29%;
+}
+
+p {
+    color: black;
+    /*width: 50%;*/
+    text-align: center;
+}
+
+#thankyou {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+}
+
+#thankyou header {
+    background-color: bisque;
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+#thankyou header img {
+    width: 20%;
+}
+
+#sail {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#sail img {
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    background-color: #9fceed;
+}
